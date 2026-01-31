@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.6rem;
+    line-height: 1.6;
+    background-color: #ffffff;
+    font-family: 'Inter', sans-serif;
+}
+
+.container{
+    width: 43rem;
+    /* border: 1px solid black; */
+    margin: 0 auto;
+}
+
+/* Header */
+
+header{
+    padding: 2.5rem 3.5rem;
+}   
+
+
+.top-logo{
+    width: 14.7rem;
+    height: 7.7rem;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Hero Section */
+
+.hero-section{
+    background-color: #F8F0FB;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+}
+
+.hero-mobile-img{
+    width: 100%;
+    height: auto;
+    display: block;
+ 
+}
+
+.hero-desktop-img{
+    display: none;
+}
+
+.hero-content{
+    width: 36.9rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 4rem 0rem 4rem 0rem;
+}
+
+.hero-header{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.24;
+    color: #6A2983;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+
+}
+.hero-text{
+    font-size: 1.45rem;
+    line-height: 1.37;
+    margin-bottom: 1rem;
+
+}
+
+.cta-button{
+    display: flex;
+    flex-direction: column;
+    width: 35.6rem;
+    gap: 1.5rem;
+}
+.hero-cta-button{
+    padding: 1.5rem 3rem;
+    background-color: #6A2983;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: .75px;
+    border-radius: 30px;
+
+}
+.hero-cta-button.secondary{
+    background-color: #FFFFFF;
+    color: #6A2983;
+    border: #6A2983 1px solid;
+
+}
+
+/* Why Choose Us Section */
+
+.why-choose-us-section{
+    padding: 4rem 7rem;
+
+}
+
+.choose-us-header{
+    font-size: 3rem;
+    color: #6A2983;
+    font-family: playfair display, serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 28.3rem;
+    height: 28.9rem;
+   
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.choose-img{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+
+}
+
+.choose-header{
+    font-size: 1.5rem;
+    line-height: .97;
+    letter-spacing: .75px;
+    color: #6A2983;
+    margin-bottom: 1rem;
+    font-weight: 700;
+    
+}
+.choose-text{
+font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: .6px;
+}
+
+/* About Section */
+
+ .about-section{
+    padding: 4rem 7rem;
+    position: relative;
+ }
+
+.about-img{
+    width: 36.2rem;
+    height: auto;
+    display: block;
+    position: absolute;
+    top: 12%;
+   left: 25%;
+   transform: translateX(-21%);
+    
+}
+
+.about-content{
+    background: linear-gradient(90deg, #F8F0FB 0%, #EEE3FB 100%);
+    width: 27.8rem;
+    height: 68.2rem;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    padding:4rem 1rem;
+   
+}
+
+
+.about-header{
+    color:#6A2983;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    font-family: 'playfair display', serif;
+    
+}
+
+.about-text{
+    font-size: 1.2rem;
+    line-height: 1.5;
+    
+}
+
+/* Testimonials Section */
+
+.testimonials-section {
+    padding: 0rem 3.5rem;
+    text-align: center;
+}
+
+.stars-display {
+    font-size: 3rem;
+    color: #00718D;
+    margin-bottom: 1.5rem;
+}
+
+.star{
+    color: #00718D;
+}
+
+.testimonials-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #6A2983;
+    line-height: 1.16;
+    font-family: 'playfair display', serif;
+    width: 27.5rem;
+    text-align: center;
+    margin: 0 auto 4rem auto;
+}
+
+.testimonials-slider {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.testimonial-card {
+    display: flex;
+    border-radius: 1rem;
+    text-align: left;
+    background-color: #ffffff;
+    align-items: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.testimonial-img {
+    width: 13.7rem;
+    height: 17.5rem;
+    border-radius: 0.8rem;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    /* padding: 2rem 0rem; */
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.testimonial-text {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+letter-spacing: .65px;
+    padding: 0rem 1.5rem;
+    align-items: center;
+}
+
+.testimonial-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1.5rem;
+}
+
+.testimonial-author {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #000000;
+    margin: 0;
+}
+
+.testimonial-rating {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.rating-icon {
+    font-size: 1.5rem;
+}
+
+.rating-score {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+}
+
+/* Carousel Arrows */
+
+.carousel-arrow {
+    position: absolute;
+    top: 60%;
+    transform: translateY(-50%);
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    font-size: 3rem;
+    color: #6A2983;
+    cursor: pointer;
+    z-index: 10;
+    display: none; /* Hidden on mobile */
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+.carousel-arrow:hover {
+    background-color:  #6A2983;
+    color: #ffffff;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.arrow-left,
+.arrow-right {
+    display: flex; /* Show service arrows on mobile */
+}
+
+.arrow-left {
+    left: 1rem;
+}
+
+.arrow-right {
+    right: 1rem;
+}
+
+.testimonial-arrow-left,
+.testimonial-arrow-right {
+    display: none; /* Hide testimonial arrows on mobile */
+}
+
+/* How it works section */
+
+.how-section{
+    margin-bottom: 4rem;
+}
+
+.how-title{
+    font-size: 3rem;
+    color: #6A2983;
+    font-family: 'playfair display', serif;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.how-card{
+    width: 22rem;
+    height: 18.8rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    
+}
+
+.how-icon{
+    width: 8.5rem;
+    height: auto;
+    display: block;
+    margin-bottom: 1rem;
+
+}
+
+.how-header{
+    font-size: 1.5rem;
+    color: #6A2983;
+    letter-spacing: .9;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: .5rem;
+
+}
+
+.how-text{
+     font-size: 1.2rem;
+    line-height: 1.5;
+    letter-spacing: .6;
+    text-align: center;
+    margin-bottom: 1rem;
+
+}
+
+/* CTA-section */
+
+.cta-content{
+    width: 35.6rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 4rem 3rem 4rem 3rem;
+}
+
+.cta-section{
+    background-color: #F8F0FB;
+}
+
+.cta-header{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.24;
+    color: #6A2983;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+
+}
+.cta-text{
+    font-size: 1.45rem;
+    line-height: 1.37;
+    margin-bottom: 1rem;
+
+}
+
+/* Footer */
+
+
+.contact-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 3rem 3rem;
+      background-color: #6A2983;
+      gap: 1rem ;
+}
+
+
+.location-box,
+.phone-box,
+.mail-box{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
+     color: #ffffff;
+     gap: 1.5rem;
+  
+    
+}
+
+
+.call-icon,
+.mail-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.location-icon{
+    width: 4rem;
+    height: 4rem;
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-self:center;
+
+
+}
+
+/* Form Section  */
+
+
+
+.form-cta-headerbox{
+    width: 29.2rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0 auto;
+}
+
+.contact-us-title{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.24;
+    color: #6A2983;
+    text-transform: capitalize;
+    width: 29.2rem;
+    text-align: start;
+
+}
+.contact-us-text{
+    font-size: 1.45rem;
+    line-height: 1.37;
+    margin-bottom: 3rem;
+     width: 29.2rem;
+    text-align: center;
+       text-align: start;
+
+}
+
+
+/* Message Form Section */
+.contact-section {
+    border-radius: 0 0 8px 8px;
+
+
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    background: #F3E9FB;
+    padding: 3rem 3rem 2rem 3rem;
+    width: 43rem;
+}
+
+.contact-form label {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 0.3rem;
+    display: block;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 1.2rem;
+    border: 1px solid #333;
+    border-radius: 2px;
+    font-size: 1.6rem;
+    font-family: inherit;
+    background: #fff;
+    margin-top: 0.3rem;
+    box-sizing: border-box;
+}
+
+.contact-form textarea {
+    min-height: 10rem;
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 1.5rem 0;
+    background: #6A2983;;
+    color: #fff;
+    border: none;
+    border-radius: 32px;
+    font-size: 1.8rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 1.5rem;
+    transition: background 0.2s;
+}
+.contact-form button:hover {
+    background: #6A2983;
+}
+
+
+/* Contact Us Box (form.html) */
+.contact-us-box {
+    background:#6A2983;
+    color: #fff;
+    border-radius: 0 0 8px 8px;
+    margin: 0 auto 0 auto;
+    padding: 3rem 4rem 2.5rem 4rem;
+    width: 43rem;
+}
+
+.contact-us-label {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1.2rem;
+    margin-bottom: 0.2rem;
+    line-height: 1.33;
+}
+
+.contact-us-label span{
+    font-weight: 600;
+}
+
+
+
+.contact-us-icon-row.First{
+    margin-top: 1rem;
+}
+
+.contact-us-icon-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  
+}
+.contact-us-icon {
+    font-size: 2rem;
+}
+.contact-us-info {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.contact-us-box p{
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
+
+
+

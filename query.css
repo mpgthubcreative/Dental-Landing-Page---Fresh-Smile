@@ -1,0 +1,325 @@
+@media (min-width: 42rem) {
+
+.container{
+    width: 120rem;
+}
+/* Hero */
+
+.hero-mobile-img{
+    display: none;
+ 
+}
+
+.hero-desktop-img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.hero-content{
+   position: absolute;
+   width: 47.8rem;
+   left: 0;
+   top: 10%;
+   padding-left: 8rem;
+}
+
+.hero-section{
+   position: relative;
+}
+
+.hero-header{
+    font-size: 4rem;
+    line-height: 1.25;
+    color: #6A2983;
+     margin-bottom: 1rem;
+
+
+}
+.hero-text{
+    font-size: 1.45rem;
+    line-height: 1.66;
+    margin-bottom: 1rem;
+
+}
+
+.cta-button{
+   flex-direction: row;
+
+}
+.hero-cta-button{
+    width: 16.8rem;
+    font-size: 1.3rem;
+    padding: 1.2rem 2.4rem;
+
+}
+.hero-cta-button.secondary{
+    width: 16.8rem;
+
+}
+
+/* Why Choose us */
+
+.card-container{
+    flex-direction: row;
+    justify-content: center;
+}
+
+/* About Us Section */
+
+ .about-section{
+    padding: 4rem 7rem;
+    position: relative;
+ }
+
+.about-img{
+    position: absolute;
+    top: 3%;
+   left: 24%;
+   transform: translateX(-18%);
+   display: block;
+   width: 38.5rem;
+   height: 38rem;
+    
+}
+
+.about-content{
+    background: linear-gradient(90deg, #F8F0FB 0%, #EEE3FB 100%);
+    width: 94.3rem;
+    height: 30.6rem;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row;
+    padding:4rem 3rem;
+    margin: 0 auto;
+    
+   
+}
+
+.about-text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-self: center;
+}
+
+
+
+.about-header{
+    line-height: 1.3;
+    margin-bottom: 1.5rem;
+    width: 41.5rem;
+    
+}
+
+.about-text{
+    font-size: 1.5rem;
+    line-height: 1.66;
+     width: 41.5rem;
+    
+}
+
+/* Testimonials Section - Desktop */
+    
+    .testimonials-section {
+        position: relative;
+        padding: 5rem 6.5rem;
+    }
+
+    .testimonials-title {
+    width: 100%;
+}
+    
+    .testimonials-slider {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+        width: 100%;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        padding: 1rem 0;
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+    }
+    
+    .testimonials-slider::-webkit-scrollbar {
+        display: none; /* Chrome, Safari, Opera */
+    }
+    
+    .testimonial-card {
+        min-width: 48rem;
+        flex-shrink: 0;
+    }
+    
+    .testimonial-arrow-left,
+    .testimonial-arrow-right {
+        display: flex;
+    }
+    
+    .testimonial-arrow-left {
+        left: 2rem;
+    }
+    
+    .testimonial-arrow-right {
+        right: 2rem;
+    }
+    
+    .testimonial-img {
+        width: 19rem;
+        height: 20rem;
+    }
+
+    .testimonial-card {
+        width: 49.5rem;
+    }
+
+    /* how it works section */
+
+    .card-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4rem;
+
+}
+
+/* CTA */
+
+.cta-content{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center;
+    justify-content: center; */
+    padding: 4rem 10rem 4rem 10rem;
+    align-items: center;
+}
+
+.cta-text-container{
+    width: 41.1rem;
+    
+}
+
+.cta-header{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1.24;
+    color: #6A2983;
+    text-transform: capitalize;
+    margin-bottom: 1rem;
+
+}
+.cta-text{
+    font-size: 1.45rem;
+    line-height: 1.37;
+    margin-bottom: 1rem;
+
+}
+
+/* Footer */
+
+.contact-details{
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 1rem 3rem;
+}
+
+
+.location-box,
+.phone-box,
+.mail-box{
+    font-weight: 400;
+     color: #ffffff;
+     gap: 1.5rem;
+     font-size: 1.4rem;  
+}
+
+.call-icon,
+.mail-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.location-icon{
+    width: 3rem;
+    height: 3rem;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    column-gap: 2rem;
+
+}
+
+.contact-section{
+    grid-row: 1 / 3;
+    grid-column: 2/3;
+    width: 38.5rem;
+}
+.form-cta-headerbox{
+   margin: 5rem auto 0 0;
+}
+
+.contact-us-box{
+    margin: -6rem auto 0rem 0;
+    height: 25rem;
+}
+
+.details-contact-us{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.contact-us-box {
+    padding: 3rem 3rem 0rem 3rem;
+    border-radius: 0rem ; 
+}
+
+
+.contact-us-label {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-top: 1.2rem;
+    margin-bottom: 0.2rem;
+    line-height: 1.33;
+}
+
+.contact-us-label span{
+    font-weight: 600;
+}
+
+
+
+.contact-us-icon-row.First{
+     font-size: 1.2rem;
+}
+
+.contact-us-icon-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  
+}
+.contact-us-icon {
+    font-size: 1.2rem;
+}
+.contact-us-info {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.contact-form button {
+    width: 20rem;
+}
+
+
+}
